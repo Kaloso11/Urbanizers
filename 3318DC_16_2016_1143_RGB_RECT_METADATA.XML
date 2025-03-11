@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco">
+<gmd:fileIdentifier>
+<gco:CharacterString xmlns:srv="http://www.isotc211.org/2005/srv">3318DC_16_2016_1143_RGB_RECT_METADATA.XML</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gco:CharacterString>eng</gco:CharacterString>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" />
+</gmd:characterSet>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName>
+<gco:CharacterString>Raoul Duesimi</gco:CharacterString>
+</gmd:individualName>
+<gmd:organisationName>
+<gco:CharacterString>Chief Directorate : National Geo-spatial Information</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Chief Professional Surveyor</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>+27 21 658 4300</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>+27 21 686 9884</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>van der Sterr Building Rhodes Avenue,Mowbray</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Cape Town</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>Western Cape</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>7705</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gco:CharacterString>RSA</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>raoul.duesimi@drdlr.gov.za</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" />
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime xmlns:srv="http://www.isotc211.org/2005/srv">2018-07-16T00:00:01</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>SANS1878</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString xmlns:srv="http://www.isotc211.org/2005/srv">1.0</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:referenceSystemInfo>
+<gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier>
+<gmd:MD_CRS>
+<WKT>PROJCRS["WGS 84 / User-defined projection zone 19",
+BASEGEODCRS["WGS 84",
+DATUM["World Geodetic System 1984",
+ELLIPSOID["WGS 84",6378137.0,298.257223563,LENGTHUNIT["metre",1.0]]]],
+CONVERSION["User-defined projection zone 19",
+METHOD["Transverse Mercator",ID["EPSG",9807]],
+PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.01745329252]],
+PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.01745329252]],
+PARAMETER["Scale factor at natural origin",1.0,SCALEUNIT["unity",1.0]],
+PARAMETER["False easting",0,LENGTHUNIT["metre",1.0]],
+PARAMETER["False northing",0,LENGTHUNIT["metre",1.0]]],
+CS[cartesian,2],
+AXIS["easting (E)",east,ORDER[1]],
+AXIS["northing (N)",north,ORDER[2]],
+LENGTHUNIT["metre",1.0]]
+</WKT>
+</gmd:MD_CRS>
+</gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem>
+</gmd:referenceSystemInfo>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>NGI Orthorectified imagery 0.50m gsd - 3318DC_16_2016_1143</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2016-01-01T00:00:01</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeListValue="publication" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CIDateTypeCode" />
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:edition>
+<gco:CharacterString>Edition 1</gco:CharacterString>
+</gmd:edition>
+<gmd:presentationForm>
+<gmd:CI_PresentationFormCode codeListValue="imageDigital" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" />
+</gmd:presentationForm>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>An orthophoto or orthorectified image is a photograph that has been corrected for lens, tilt and height distortion and then projected onto a plane defined by the coordinate system. It may be produced as a single image or as a mosaic of several images. The Chief Directorate National Geo-spatial Information (NGI) produces both single and mosaic orthorectified images from analogue and digital photography respectively. The limits (footprint) of the image correspond to the 1:10 000 map reference index which is generally a 3min x 3min rectangular area. The image name/identifier will carry the index reference within. National coverage of this dataset will be arranged into two degree Longitudinal Bands (LO Bands) that span the entire country from east to west. The centre of these bands is commonly known as the home Longitude of Origin (LO), and includes LO17, LO19, LO21, LO23, LO25, LO27, LO29, LO31 and LO33. The coordinate reference system for the imagery is the Transverse Mercator Projection and the Ellipsoid is WGS84. National coverage of this dataset will contain approximately 45800 images. Single image rectification, commonly known as "498 jobs", is produced at a ground sample distance (GSD) of 0.75m and the spectral band is mostly panchromatic. The mosaic image rectification, commonly known as "digital jobs", is produced at a GSD of 0.5m (between 2008-2016) and 0.25m (from 2017 onwards) the spectral band is Red, Green and Blue (RGB) or Colour Infra-Red (CIR). The "geographicIdentifier" tag below contains the sheet reference index for this map instance. </gco:CharacterString>
+</gmd:abstract>
+<gmd:purpose>
+<gco:CharacterString>National imagery archive</gco:CharacterString>
+</gmd:purpose>
+<gmd:status>
+<gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode" />
+</gmd:status>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName>
+<gco:CharacterString>Cameron Williams</gco:CharacterString>
+</gmd:individualName>
+<gmd:organisationName>
+<gco:CharacterString>Chief Directorate : National Geo-spatial Information</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Geomatics Manager</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>+27 21 658 4300</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>+27 21 686 9884</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>van der Sterr Building Rhodes Avenue,Mowbray</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Cape Town</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>Western Cape</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>7705</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gco:CharacterString>RSA</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>Cameron.Williams@drdlr.gov.za </gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeListValue="originator" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" />
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:resourceFormat>
+<gmd:MD_Format id="ID00005">
+<gmd:name>
+<gco:CharacterString>GeoTiff</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>JPEG-TIFF Q3</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:resourceFormat>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>Imagery</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" />
+</gmd:type>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>0.5m GSD Orthorectified</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" />
+</gmd:type>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>0.5m GSD</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" />
+</gmd:type>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>NGI Ortho</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" />
+</gmd:type>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode" />
+</gmd:accessConstraints>
+<gmd:useConstraints>
+<gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode" />
+</gmd:useConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>Constraints</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeListValue="imageFormat" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode" />
+</gmd:spatialRepresentationType>
+<gmd:spatialResolution>
+<gmd:MD_Resolution>
+<gmd:equivalentScale>
+<gmd:MD_RepresentativeFraction>
+<gmd:denominator>
+<gco:Integer>42000</gco:Integer>
+</gmd:denominator>
+</gmd:MD_RepresentativeFraction>
+</gmd:equivalentScale>
+</gmd:MD_Resolution>
+<gmd:MD_Resolution>
+<gmd:distance>
+<gco:Distance uom="m">0.50</gco:Distance>
+</gmd:distance>
+</gmd:MD_Resolution>
+</gmd:spatialResolution>
+<gmd:language>
+<gco:CharacterString>eng</gco:CharacterString>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" />
+</gmd:characterSet>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="xx">
+<gml:beginPosition>2016</gml:beginPosition>
+<gml:endPosition>2016</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>18.50</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>18.55</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>-33.95</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>-33.90</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+<gmd:geographicElement>
+<gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+<gmd:MD_Identifier>
+<gmd:code>
+<gco:CharacterString>3318DC_16</gco:CharacterString>
+</gmd:code>
+</gmd:MD_Identifier>
+</gmd:geographicIdentifier>
+</gmd:EX_GeographicDescription>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:supplementalInformation>
+<gco:CharacterString></gco:CharacterString>
+</gmd:supplementalInformation>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+<gmd:distributionInfo>
+<gmd:MD_Distribution>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage xmlns:srv="http://www.isotc211.org/2005/srv">
+<gmd:URL>http://www.ngi.gov.za</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+<gco:CharacterString>http</gco:CharacterString>
+</gmd:protocol>
+<gmd:name>
+<gco:CharacterString>NGI information web site</gco:CharacterString>
+</gmd:name>
+<gmd:description>
+<gco:CharacterString></gco:CharacterString>
+</gmd:description>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+</gmd:MD_Distribution>
+</gmd:distributionInfo>
+<gmd:dataQualityInfo>
+<gmd:DQ_DataQuality>
+<gmd:scope>
+<gmd:DQ_Scope>
+<gmd:level>
+<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" />
+</gmd:level>
+</gmd:DQ_Scope>
+</gmd:scope>
+<gmd:lineage>
+<gmd:LI_Lineage>
+<gmd:statement>
+<gco:CharacterString>The primary data elements that are required for orthorectification include digital aerial photography, digital elevation model data (DEM), exterior orientation parameters and photo ground control points (PGC). These datasets are prepared by the NGI for consumption into the orthorectified process. Aerial Triangulation will provide the optimum parameters for tilt displacement and final model orientations, DEM will provide a bare earth height model of the area of interest while the PGC will tie the model to the National Reference Frame (coordinate system). The source for single image rectification is analogue (film) photography (0.75m ground sample distance (gsd)), commonly known as "498 jobs", which is acquired at an approximate scale of 1:30 000 and scanned with a high resolution photogrammetric scanner, and the source for mosaic image rectification (0.5m and 0.25m gsd) is digital imagery acquired at an approximate scale of 1:40 000 for the 0.5m gsd and 1:60 000 for the 0.25m gsd imagery. </gco:CharacterString>
+</gmd:statement>
+</gmd:LI_Lineage>
+</gmd:lineage>
+</gmd:DQ_DataQuality>
+</gmd:dataQualityInfo>
+</gmd:MD_Metadata>

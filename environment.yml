@@ -1,0 +1,23 @@
+name: deepforest
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3
+  - pytorch
+  - torchvision
+  - deepforest
+  - tensorflow
+  - jupyterlab
+  - seaborn
+  - albumentations
+  - leafmap[maplibre]
+  - fiona
+  - ipython
+  - pip
+  - pip:
+      - keras_preprocessing
+      - tifffile
+      - rioxarray
+      - descartes
